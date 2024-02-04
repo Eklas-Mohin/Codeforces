@@ -13,6 +13,6 @@ int main() {
     toasts = min(toasts, c);
     toasts = min(toasts, p / np);
     toasts /= n;
-    cout << toasts <<endl;
+    cout << toasts << endl;
     return 0;
 }
