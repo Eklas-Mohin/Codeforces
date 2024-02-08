@@ -1,10 +1,14 @@
-#include <iostream>
-#include <cmath>
-#include <string>
+/**
+ *    author: mohin    
+**/
+
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     int n{}, len{};
     string str{}, abbr{};
     cin >> n;
