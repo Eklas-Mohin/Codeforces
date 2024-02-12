@@ -11,7 +11,7 @@ int main() {
     cin.tie(0);
     int n{}, m{}, b{}, arr[100000] = {};
     map<int,int> left;
-    map<int, int> right;
+    map<int,int> right;
     long long l{0}, r{0};
     cin >> n;
     for (int i = 0; i < n; ++i) {
