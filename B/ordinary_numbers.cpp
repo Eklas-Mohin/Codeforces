@@ -9,11 +9,11 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int t{}, n{};
+    int t{};
     cin >> t;
     while (t--) {
+        long long n{}, ans{}, temp{};
         cin >> n;
-        long long ans{}, temp{};
         for (int i = 1; i < 10; ++i) {
             temp = i;
             while (temp <= n) {
