@@ -17,7 +17,7 @@ int main() {
         string ans{};
         while (n > 0) {
             ans = to_string(curr) + ans;
-            n = n -  curr;
+            n = n - curr;
             curr = curr - 1;
             curr = min(curr, n);
         }
