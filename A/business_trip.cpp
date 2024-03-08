@@ -24,7 +24,7 @@ int main() {
         }
     }
     if (k > 0) {
-        ans = - 1;
+        ans = -1;
     }
     cout << ans << endl;
     return 0; 
