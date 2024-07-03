@@ -13,10 +13,16 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> n;
+        int sum{};
         for (int i = 0; i < n; ++i) {
             cin >> arr[i];
+            sum += arr[i];
         }
-        cout << "YES" << endl;
+        if (sum % 2) {
+            cout << "NO" << endl;
+        } else {
+            cout << "YES" << endl;
+        }
     }
     return 0;
 }
