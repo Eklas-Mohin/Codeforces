@@ -16,7 +16,7 @@ int main() {
         string str{};
         cin >> n >> str;
         sort(str.begin(), str.end());
-        cout << (int)str[n - 1] << endl; 
+        cout << (int)str[n - 1] - 96 << endl; 
     }
     return 0;
 }
