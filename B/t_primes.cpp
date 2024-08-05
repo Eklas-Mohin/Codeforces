@@ -1,13 +1,13 @@
 /**
-*    author: mohin
-**/
+ *    author: mohin
+ **/
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-#define MX 1E6
-bool prime[1000000];
+#define MX 1000000
+bool prime[MX + 1];
 
 void primeSieve() {
     memset(prime, true, sizeof(prime));
@@ -32,12 +32,16 @@ bool isPrime(long long n) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
+    
     primeSieve();
+    
     long long n{}, in{};
     cin >> n;
+    
     for (int i = 0; i < n; ++i) {
         cin >> in;
         long long x = sqrt(in);
+        
         if (x * x == in) {
             if (isPrime(x)) {
                 cout << "YES" << endl;
@@ -48,5 +52,6 @@ int main() {
             cout << "NO" << endl;
         }
     }
+    
     return 0;
 }
