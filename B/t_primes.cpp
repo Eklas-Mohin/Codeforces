@@ -1,22 +1,17 @@
 /**
  *    author: mohin
- **/
+**/
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-#define MX 1000000
-bool prime[MX + 1];
+const int MX = 1000000;
+vector<bool> prime(MX + 1, true);
 
 void primeSieve() {
-    memset(prime, true, sizeof(prime));
-    prime[1] = false;
-    prime[2] = true;
-    for (int i = 4; i <= MX; i += 2) {
-        prime[i] = false;
-    }
-    for (int i = 3; i * i <= MX; i += 2) {
+    prime[0] = prime[1] = false;
+    for (int i = 2; i * i <= MX; ++i) {
         if (prime[i]) {
             for (int j = i * i; j <= MX; j += i) {
                 prime[j] = false;
@@ -25,7 +20,7 @@ void primeSieve() {
     }
 }
 
-bool isPrime(long long n) {
+bool isPrime(int n) {
     return prime[n];
 }
 
@@ -35,21 +30,18 @@ int main() {
     
     primeSieve();
     
-    long long n{}, in{};
+    int n;
     cin >> n;
     
-    for (int i = 0; i < n; ++i) {
+    while (n--) {
+        long long in;
         cin >> in;
         long long x = sqrt(in);
         
-        if (x * x == in) {
-            if (isPrime(x)) {
-                cout << "YES" << endl;
-            } else {
-                cout << "NO" << endl;
-            }
+        if (x * x == in && isPrime(x)) {
+            cout << "YES\n";
         } else {
-            cout << "NO" << endl;
+            cout << "NO\n";
         }
     }
     
