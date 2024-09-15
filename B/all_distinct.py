@@ -10,7 +10,6 @@ def main():
             print(k)
         else:
             print(k - 1)
-        
         t = t - 1
             
 if __name__ == '__main__':
