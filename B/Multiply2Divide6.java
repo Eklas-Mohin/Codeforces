@@ -1,8 +1,8 @@
 
 /** ******************************
- *    author:  mohin             *
- *    problem: Codeforces 1374B  *
- *    verdict: Accepted          *
+ *   author:  mohin              *
+ *   problem: Codeforces 1374B   *
+ *   verdict: Accepted           *
  *********************************/
 
 import java.util.Scanner;

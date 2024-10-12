@@ -1,6 +1,8 @@
-''' author: mohin
-    problrm: Codeforces 1374B
-'''
+# ******************************* #
+#    author:  mohin               #
+#    problem: Codeforces 1374B    #
+#    verdict: Accepted            #
+# ******************************* #
 
 def main():
     t = int(input())
@@ -12,7 +14,7 @@ def main():
         while n % 2 == 0:
             two += 1
             n //= 2
-            
+
         while n % 3 == 0:
             three += 1
             n //= 3
