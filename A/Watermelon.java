@@ -1,8 +1,8 @@
-/******************************
- *   author:  mohin           *
- *   problem: Codeforces 4A   *
- *   verdict: Accepted        *
- ******************************/
+/*****************************
+*   author:  mohin           *
+*   problem: Codeforces 4A   *
+*   verdict: Accepted        *
+******************************/
 
 import java.io.BufferedReader;
 import java.io.IOException;
