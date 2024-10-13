@@ -1,6 +1,6 @@
 /** **************************
  *   author:  mohin          *
- *   problem: Codeforces 4A  *
+ *   problem: Codeforces 4A *
  *   verdict: Accepted       *
  *****************************/
 
