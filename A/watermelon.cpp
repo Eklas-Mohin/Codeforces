@@ -13,6 +13,7 @@ int main() {
     cin.tie(nullptr);cout.tie(nullptr);
 
     int w;
+    
     cin >> w;
 
     if (w > 2 and w % 2 == 0) {
