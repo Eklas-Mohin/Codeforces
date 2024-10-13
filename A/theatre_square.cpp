@@ -8,17 +8,17 @@
 
 using namespace std;
 
-long long numOfFlagstones(long long n, long long m, long long a) {
-    long long r = (n + a - 1) / a;
-    long long c = (m + a - 1) / a;
-    return r * c;
+long long numOfFlagstones(int n, int m, int a) {
+    int r = (n + a - 1) / a;
+    int c = (m + a - 1) / a;
+    return 1LL * r * c;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);cout.tie(nullptr);
 
-    long long n, m, a;
+    int n, m, a;
     cin >> n >> m >> a;
  
     cout << numOfFlagstones(n, m, a) << endl;
