@@ -10,6 +10,7 @@
 long long numOfFlagstones(int n, int m, int a) {
     int r = (n + a - 1) / a;
     int c = (m + a - 1) / a;
+    
     return 1LL * r * c;
 }
 
