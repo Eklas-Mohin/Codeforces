@@ -24,9 +24,9 @@ public class TheatreSquare {
 
         String[] input = reader.readLine().split(" ");
 
-        long n = Integer.parseInt(input[0]);
-        long m = Integer.parseInt(input[1]);
-        long a = Integer.parseInt(input[2]);
+        long n = Long.parseLong(input[0]);
+        long m = Long.parseLong(input[1]);
+        long a = Long.parseLong(input[2]);
 
         writer.println(numOfFlagstones(n, m, a));
 
