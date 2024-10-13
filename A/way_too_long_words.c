@@ -1,4 +1,4 @@
-/** **************************
+/*****************************
  *   author:  mohin          *
  *   problem: Codeforces 71A *
  *   verdict: Accepted       *
