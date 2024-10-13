@@ -11,11 +11,11 @@ import java.io.PrintWriter;
 
 public class TheatreSquare {
 
-    public static long numOfFlagstones(long n, long m, long a) {
+    public static long numOfFlagstones(int n, int m, int a) {
         long r = (n + a - 1) / a;
         long c = (m + a - 1) / a;
 
-        return r * c;
+        return 1L * r * c;
     }
 
     public static void main(String[] args) throws IOException {
@@ -24,9 +24,9 @@ public class TheatreSquare {
 
         String[] input = reader.readLine().split(" ");
 
-        long n = Long.parseLong(input[0]);
-        long m = Long.parseLong(input[1]);
-        long a = Long.parseLong(input[2]);
+        int n = Integer.parseInt(input[0]);
+        int m = Integer.parseInt(input[1]);
+        int a = Integer.parseInt(input[2]);
 
         writer.println(numOfFlagstones(n, m, a));
 
