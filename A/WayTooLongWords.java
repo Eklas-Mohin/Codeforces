@@ -1,9 +1,3 @@
-/*****************************
- *   author:  mohin          *
- *   problem: Codeforces 71A *
- *   verdict: Accepted       *
- *****************************/
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,9 +7,11 @@ public class WayTooLongWords {
 
     public static String abbreviateWord(String word) {
         int length = word.length();
+
         if (length > 10) {
             return word.charAt(0) + String.valueOf(length - 2) + word.charAt(length - 1);
         }
+        
         return word;
     }
 
