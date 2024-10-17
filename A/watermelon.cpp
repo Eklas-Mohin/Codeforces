@@ -56,6 +56,7 @@ int main() {
     #endif
 
     int w;
+    
     cin >> w;
     
     if (w % 2 == 0 and w > 2) {
