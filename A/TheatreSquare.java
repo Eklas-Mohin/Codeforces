@@ -1,9 +1,3 @@
-/*****************************
-*   author:  mohin           *
-*   problem: Codeforces 1A   *
-*   verdict: Accepted        *
-******************************/
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
