@@ -1,9 +1,3 @@
-# *************************** #
-#   author:  mohin            #
-#   problem: Codeforces 71A   #
-#   verdict: Accepted         #
-# *************************** #
-
 def solve(s: str) -> str:
     length = len(s)
     if length > 10:
