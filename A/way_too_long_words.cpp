@@ -49,9 +49,11 @@ using namespace std;
 
 string solve(const string& str) {
     int len = str.length();
+
     if (len > 10) {
         return str[0] + to_string(len - 2) + str[len - 1];
     }
+    
     return str;
 }
 
