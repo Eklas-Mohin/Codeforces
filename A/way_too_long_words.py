@@ -3,12 +3,13 @@ def solve(s: str) -> str:
     if length > 10:
         return f"{s[0]}{length - 2}{s[-1]}"
     return s
-
-def main():
+        
+def way_too_long_words():
     n = int(input())
     for _ in range(n):
         s = input()
         print(solve(s))
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    way_too_long_words()
+    
