@@ -66,7 +66,7 @@ int main() {
     #endif
 
     int a, b, c;
-    cin >> a >> c;
+    cin >> a >> b >> c;
     cout << maxValue(a, b, c) << endl;
 
     return 0;
