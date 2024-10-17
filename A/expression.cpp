@@ -43,8 +43,6 @@
 #define EPS 1e-9
 #define PI acos(-1)
 
-#include <bits/stdc++.h>
-
 using namespace std;
 
 int maxValue(int a, int b, int c) {
