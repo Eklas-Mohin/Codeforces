@@ -1,9 +1,3 @@
-# ************************** #
-#   author:  mohin           #
-#   problem: Codeforces 4A   #
-#   verdict: Accepted        #
-# ************************** #
-
 def main():
     w = int(input())
     
