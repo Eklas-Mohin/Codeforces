@@ -1,15 +1,14 @@
-def solve(s: str) -> str:
-    length = len(s)
-    if length > 10:
-        return f"{s[0]}{length - 2}{s[-1]}"
-    return s
-        
-def way_too_long_words():
+def main():
     n = int(input())
+    
     for _ in range(n):
         s = input()
-        print(solve(s))
+        length = len(s)
+        
+        if length > 10:
+            print(f"{s[0]}{length - 2}{s[-1]}")
+        else:
+            print(s)
 
 if __name__ == '__main__':
-    way_too_long_words()
-    
+    main()
